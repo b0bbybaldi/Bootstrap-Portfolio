@@ -71,10 +71,10 @@ h3 {
   font-size: 25px;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
+  color: #FFFFFF;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #287EF6;
 }
 
 nav {
@@ -105,8 +105,8 @@ footer {
   color: #fff;
   color: #ccc;
   text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
+  background: #287EF6;
+  border-top: 4px solid #DDDDDD;
   height: 50px;
 }
 
@@ -164,7 +164,7 @@ h3, h2 {
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #4aaaa5;
+  background: #287EF6;
   border-bottom: 0;
 }
 
@@ -212,7 +212,7 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #287EF6;
   border: 0 none;
 }
 
