@@ -218,9 +218,31 @@ input[type=submit] {
 
 /*
   These rules take effect when the browser's width
-  is either 908px or less.
+  is either 980px or less.
 */
 @media screen and (max-width: 980px) {
+  .container {
+  width: 100%;
+  max-width: 687px;
+  margin: 0 auto;
+  clear: both;
+  float: left;
+}
+
+#main-container {
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
  
 }
 
@@ -229,14 +251,58 @@ input[type=submit] {
   is either 768px or less.
 */
 @media screen and (max-width: 768px) {
+  .container {
+  width: 100%;
+  max-width: 730px;
+  margin: 0 auto;
+  clear: both;
+  float: middle;
+}
+
+#main-container {
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
  
 }
 
 /*
   These rules take effect when the browser's width
-  is either 768px or less.
+  is either 640px or less.
 */
 @media screen and (max-width: 640px) {
+  .container {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  clear: both;
+  float: middle;
+}
+
+#main-container {
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
  
 }
 
