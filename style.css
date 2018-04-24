@@ -17,7 +17,7 @@ body {
    clear:both;
 }
 
-[class*='col-'] {
+[class*='col'] {
   float: left ; 
   min-height: 1px; 
   width: 8.33%; 
@@ -140,7 +140,7 @@ h3 {
 
 nav {
   float: right;
-  margin-top: 25px;
+  padding:25px;
 }
 
 nav a {
