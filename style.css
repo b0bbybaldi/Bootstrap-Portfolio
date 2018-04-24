@@ -18,7 +18,7 @@ body {
 }
 
 [class*='col-'] {
-  float: left; 
+  float: left ; 
   min-height: 1px; 
   width: 8.33%; 
 }

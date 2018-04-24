@@ -10,24 +10,26 @@
   <link rel="stylesheet" type="text/css" href="responsive.css">
 </head>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Roberto Baldizon</a>
-      <nav>
+<header id="masthead">
+   <div class="container">
+     <div class="row">
+      <a class="col-4" href="index.html" id="logo">Roberto Baldizon</a>
+       <nav class="col-8" class="nav">
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
-      </nav>
+       </nav>
+     </div>
     </div>
-  </header>
+</header>
 
 <body>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
+  <div id="main-container" class="container" class="row">
+    <section class="col-4" class="main-section">
       <h1>Contact</h1>
 
-      <form id="contact-form">
+      <form class="col-8" id="contact-form">
         <ul>
           <li>
             <label for="name">Name</label>
@@ -49,11 +51,13 @@
 
   </div>
 
+<div class="row">
   <footer>
-    <div class="container">
+    <div class="container" class="col-12">
       Copyright &copy; 
     </div>
   </footer>
+</div>
 </body>
 
 </html>

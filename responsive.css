@@ -33,9 +33,9 @@ nav {
 
 nav a {
   display: inline-block;
-  /*padding-left: 15px;
-  margin-left: 15px;*/
-/*  line-height: 18px;*/
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
@@ -70,6 +70,21 @@ nav a {
   background: #fff;
   border: 1px solid #ddd;
 }
+
+nav {
+  float: middle;
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
  
 }
 
@@ -99,6 +114,21 @@ nav a {
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
+}
+
+nav {
+  float: middle;
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
 }
  
 }
